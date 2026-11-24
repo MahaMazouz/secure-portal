@@ -1,0 +1,9 @@
+target/
+.git/
+.github/
+*.key
+*.pem
+.env
+staging/
+zap/
+scripts/
