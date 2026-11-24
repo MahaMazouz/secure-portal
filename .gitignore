@@ -1,0 +1,22 @@
+# Maven
+target/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# Secrets et fichiers generes : ne JAMAIS commiter
+.env
+staging/.env
+staging/alertmanager/discord_webhook
+*.key
+*.pem
+
+# Rapports produits par la pipeline ou en local
+reports/
+zap-out/
+dd-sync/
